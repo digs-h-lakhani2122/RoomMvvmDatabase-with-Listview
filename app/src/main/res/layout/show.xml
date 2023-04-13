@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:padding="5dp"
+                android:textColor="#000000"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/nameShow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="TextView"
+                android:paddingHorizontal="5dp"
+                android:textColor="#B2E91E63"
+                tools:ignore="HardcodedText" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Duration"
+                android:padding="5dp"
+                android:textColor="#000000"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/durationShow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="TextView"
+                android:paddingHorizontal="5dp"
+                android:textColor="#B2E91E63"
+                tools:ignore="HardcodedText" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Course"
+                android:padding="5dp"
+                android:textColor="#000000"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/courseShow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="TextView"
+                android:paddingHorizontal="5dp"
+                android:textColor="#B2E91E63"
+                tools:ignore="HardcodedText" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp" >
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Field"
+                android:padding="5dp"
+                android:textColor="#000000"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/fieldShow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="TextView"
+                android:paddingHorizontal="5dp"
+                android:textColor="#B2E91E63"
+                tools:ignore="HardcodedText" />
+
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
